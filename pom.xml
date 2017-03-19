@@ -232,7 +232,14 @@
 				<version>0.12</version>
 				<configuration>
 					<message>Creating site for ${project.version}</message>
+					<promoteTransitiveDependencies>true</promoteTransitiveDependencies>
+          <artifactSet>
+            <excludes>
+            <exclude>org.eclipse.mylyn.github:org.eclipse.egit.github.core</exclude>
+            </excludes>
+            </artifactSet>
 				</configuration>
+				
 				<executions>
 					<execution>
 						<goals>
@@ -535,12 +542,7 @@
 			<scope>test</scope>
 		</dependency>
 		
-		<!-- https://mvnrepository.com/artifact/org.eclipse.mylyn.github/org.eclipse.egit.github.core -->
-<!-- <dependency>
-    <groupId>org.eclipse.mylyn.github</groupId>
-    <artifactId>org.eclipse.egit.github.core</artifactId>
-    <version>3.1.0.201310021548-r</version>
-</dependency> -->
+		
 		
 	</dependencies>
 
