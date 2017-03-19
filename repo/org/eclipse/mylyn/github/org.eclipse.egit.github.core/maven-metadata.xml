@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<metadata>
+  <groupId>org.eclipse.mylyn.github</groupId>
+  <artifactId>org.eclipse.egit.github.core</artifactId>
+  <versioning>
+    <release>3.1.0.201310021548-r</release>
+    <versions>
+      <version>3.1.0.201310021548-r</version>
+    </versions>
+    <lastUpdated>20170319064227</lastUpdated>
+  </versioning>
+</metadata>
